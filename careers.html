@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - FutureMaker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="coursesncareers.css">
+</head>
+<body>
+    <!-- Logo Header -->
+    <header>
+        <a href="index.html" class="logo-link" aria-label="FutureMaker home page"><img src="Assets/Logo.png" alt="FutureMaker logo" class="site-logo"></a>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="topnav" id="myTopnav" aria-label="Main navigation">
+        <div id="myLinks" aria-label="Main menu">
+            <a href="quiz.html" aria-label="Go to quiz page">Quiz</a>
+            <a href="careers.html" class="active" aria-label="Go to careers page">Careers</a>
+            <a href="courses.html" aria-label="Go to courses page">Courses</a>
+            <a href="about.html" aria-label="Go to about page">About Us</a>
+            <a href="contact.html" aria-label="Go to contact page">Contact</a>
+            <form class="nav-search" novalidate aria-label="Site search">
+                <input type="search" placeholder="Search..." aria-label="Search the site">
+                <button type="submit" aria-label="Submit search">&#x2315;</button>
+            </form>
+        </div>
+        <button class="icon" type="button" onclick="myFunction()" aria-label="Toggle navigation menu">
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="careers-hero">
+        <h1>Careers</h1>
+        <p>Discover our range of career opportunities designed to help you build a successful future.</p>
+    </section>
+    <img src="Assets/swirl.svg" alt="Decorative swirl" class="decorative-swirl">
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <a class="item" href="subpage.html">
+                <span>Business</span>
+                <img src="Assets/Business (2).png" alt="Business">
+            </a>
+            <a class="item" href="subpage.html">
+                <span>Arts</span>
+                <img src="Assets/Art (2).png" alt="Arts">
+            </a>
+            <a class="item" href="subpage.html">
+                <span>Agriculture</span>
+                <img src="Assets/Agriculture (2).png" alt="Agriculture">
+            </a>
+            <a class="item" href="subpage.html">
+                <span>Science</span>
+                <img src="Assets/Science (2).png" alt="Science">
+            </a>
+            <a class="item" href="subpage.html">
+                <span>Humanities</span>
+                <img src="Assets/Humanities (2).png" alt="Humanities">
+            </a>
+            <a class="item" href="subpage.html">
+                <span>Engineering</span>
+                <img src="Assets/Egineer (2).png" alt="Engineering">
+            </a>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer aria-label="Footer">
+        <div class="footer-content">
+            <p>Stay in contact?</p>
+            <form class="footer-form" novalidate aria-label="Subscribe to updates">
+                <input type="email" name="email" id="footer-email" placeholder="your.email@example.com" required aria-label="Email address">
+                <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+                <div class="footer-feedback"></div>
+            </form>
+            <p>&copy; 2026 FutureMaker. All rights reserved.</p>
+        </div>
+        <div class="footer-phone" aria-label="Phone contact">
+            <img src="Assets/Phone.png" alt="Phone icon">
+            <span>01 234 567 89</span>
+        </div>
+        <div class="footer-social" aria-label="Social media links">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Visit FutureMaker on Instagram">
+                <img src="Assets/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit FutureMaker on Facebook">
+                <img src="Assets/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" aria-label="Visit FutureMaker on TikTok">
+                <img src="Assets/tiktok.png" alt="TikTok">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/footer.js"></script>
+</body>
+</html>
